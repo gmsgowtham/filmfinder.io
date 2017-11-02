@@ -5,10 +5,12 @@ class FooterComponent extends Component {
 		return (
 			<div className="hero-foot">
         <div className="container">
-          <div className="tabs is-centered">
-            <ul>
-              <li><a>And this at the bottom</a></li>
-            </ul>
+          <div className="content has-text-centered pad-10">
+            <p>
+              <a class="icon" rel="noopener noreferrer" target="_blank" href="https://github.com/gowthamcodingmart/filmfinder">
+                <i class="fa fa-github"></i>
+              </a>
+            </p>
           </div>
         </div>
       </div>

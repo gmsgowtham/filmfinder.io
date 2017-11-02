@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import promoImg from '../../../assets/images/promo.png';
-import chromeWebStoreImg from '../../../assets/images/ChromeWebStore_BadgeWBorder_v2_206x58.png'
-import operaAddonsImg from '../../../assets/images/addons_206x58_en.png'
+import promoImg from '../../assets/images/promo.png';
+import chromeWebStoreImg from '../../assets/images/ChromeWebStore_BadgeWBorder_v2_206x58.png'
+import operaAddonsImg from '../../assets/images/addons_206x58_en.png'
 
 class PromotionComponent extends Component {
 	render() {

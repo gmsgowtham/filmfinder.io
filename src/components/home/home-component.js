@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 import HeaderComponent from '../sub_components/header/header-component';
-import PromotionComponent from '../sub_components/promotion/promotion-component';
+import PromotionComponent from '../promotion/promotion-component';
+import FeaturesComponent from '../features/features-component';
 import FooterComponent from '../sub_components/footer/footer-component';
 
 class HomeComponent extends Component {
   render() {
     return (
-        <section className="hero is-fullheight is-default is-bold is-light">
-          <div className="hero-head">
-            <HeaderComponent active="Home"/>
-          </div>
-          <div className="hero-body">
-            <PromotionComponent />
-          </div>
-          <FooterComponent/>
-        </section>
+      <section className="hero is-fullheight is-default bg-purple">
+        <div className="hero-head">
+          <HeaderComponent/>
+        </div>
+        <div className="hero-body">
+          <Switch>
+            <Route exact path='/' component={PromotionComponent}/>
+            <Route exact path='/features' component={FeaturesComponent}/>
+          </Switch>
+        </div>
+        <FooterComponent/>
+      </section>
     );
   }
 }
