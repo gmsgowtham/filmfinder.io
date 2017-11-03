@@ -9,7 +9,7 @@ import FooterComponent from '../sub_components/footer/footer-component';
 class HomeComponent extends Component {
   render() {
     return (
-      <section className="hero is-fullheight is-default bg-purple">
+      <section className="hero is-fullheight is-default bg-black">
         <div className="hero-head">
           <HeaderComponent/>
         </div>

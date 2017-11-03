@@ -2,8 +2,8 @@
 	display: flex;
 	justify-content: center !important;
 }
-.bg-purple {
-	background-color: rgba(199, 61, 251, 0.5);
+.bg-black {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 .pad-10 {
 	padding: 10px;
