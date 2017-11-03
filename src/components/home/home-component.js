@@ -9,19 +9,22 @@ import FooterComponent from '../sub_components/footer/footer-component';
 class HomeComponent extends Component {
   render() {
     return (
-      <section className="hero is-fullheight is-default bg-black">
-        <div className="hero-head">
-          <HeaderComponent/>
-        </div>
-        <div className="hero-body">
-          <Switch>
-            <Route exact path='/' component={PromotionComponent}/>
-            <Route exact path='/features' component={FeaturesComponent}/>
-            <Route component={PromotionComponent}></Route>
-          </Switch>
-        </div>
-        <FooterComponent/>
-      </section>
+      <div>
+        <div className="background-image"></div>
+        <section className="hero is-fullheight is-default bg-black">
+          <div className="hero-head">
+            <HeaderComponent/>
+          </div>
+          <div className="hero-body">
+            <Switch>
+              <Route exact path='/' component={PromotionComponent}/>
+              <Route exact path='/features' component={FeaturesComponent}/>
+              <Route component={PromotionComponent}></Route>
+            </Switch>
+          </div>
+          <FooterComponent/>
+        </section>
+      </div>
     );
   }
 }

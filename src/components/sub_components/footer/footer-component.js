@@ -6,10 +6,8 @@ class FooterComponent extends Component {
 			<div className="hero-foot">
         <div className="container">
           <div className="content has-text-centered pad-10">
-            <p>
-              <a className="icon" rel="noopener noreferrer" target="_blank" href="https://github.com/gowthamcodingmart/filmfinder">
-                <i className="fa fa-github"></i>
-              </a>
+            <p className="light-color">
+              <strong className="light-color">FilmFinder</strong> by <a className="has-text-danger" href="https://github.com/gowthamcodingmart">Gowtham G</a>
             </p>
           </div>
         </div>

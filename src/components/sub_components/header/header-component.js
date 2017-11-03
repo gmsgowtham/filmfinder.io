@@ -31,11 +31,11 @@ class HeaderComponent extends Component {
           </div>
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-end">
-              <Link to='/' className={"navbar-item "+(pathName === '/' ? 'is-active': '')}>Home</Link>
-              <Link to='/' className={"navbar-item "+(pathName === '/features' ? 'is-active': '')}>Features</Link>
+              <Link to='/' className={"navbar-item light-color "+(pathName === '/' ? 'is-active': '')}>Home</Link>
+              <Link to='/' className={"navbar-item light-color "+(pathName === '/features' ? 'is-active': '')}>Features</Link>
               {/*<Link to='/features' className="navbar-item">Features</Link>*/}
               <span className="navbar-item">
-                <a className="button is-dark is-outlined is-small" rel="noopener noreferrer" target="_blank" href="https://github.com/gowthamcodingmart/filmfinder">
+                <a className="button is-light is-outlined is-small" rel="noopener noreferrer" target="_blank" href="https://github.com/gowthamcodingmart/filmfinder">
                   <span className="icon">
                     <i className="fa fa-github"></i>
                   </span>

@@ -15,10 +15,10 @@ class PromotionComponent extends Component {
             </figure>
           </div>
           <div className="column is-6 is-offset-1">
-            <h1 className="title is-2">
+            <h1 className="title is-2 light-color">
               FilmFinder
             </h1>
-            <h2 className="subtitle is-4">
+            <h2 className="subtitle is-4 light-color">
               FilmFinder allows you to browse and download latest and popular YIFY movie torrents in excellent 720p, 1080p and 3D quality from 
               <a className="has-text-danger" href="https://yts.ag"> YTS.AG</a>.
             </h2>

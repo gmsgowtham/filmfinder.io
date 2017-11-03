@@ -8,3 +8,23 @@
 .pad-10 {
 	padding: 10px;
 }
+.light-color {
+	color: #fff !important;
+}
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
+  background-image: url('../images/movie_background.jpg');
+  width: auto;
+  height: 100vh;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+.hero {
+	z-index: 9999;
+}
