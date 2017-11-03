@@ -17,6 +17,7 @@ class HomeComponent extends Component {
           <Switch>
             <Route exact path='/' component={PromotionComponent}/>
             <Route exact path='/features' component={FeaturesComponent}/>
+            <Route component={PromotionComponent}></Route>
           </Switch>
         </div>
         <FooterComponent/>
